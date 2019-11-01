@@ -1,7 +1,7 @@
 PODS:
   - JSONModel (1.8.0)
   - PoporFoundation/NSObject (1.09)
-  - PoporJsonModel (0.02):
+  - PoporJsonModel (0.03):
     - JSONModel
     - PoporFoundation/NSObject
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   PoporFoundation: f080da19da868487426639289bd3a263a7c65aea
-  PoporJsonModel: 9800b7cd0192fba9f7d6166ddda308f4f986cd3a
+  PoporJsonModel: 21862caa2de147fb5c08230935ac411c8a2185ad
 
 PODFILE CHECKSUM: ddedf7b513bbc388ee82d1e7d58a1e31814fa781
 

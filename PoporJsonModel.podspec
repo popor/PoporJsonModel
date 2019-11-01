@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PoporJsonModel'
-  s.version          = '0.02'
+  s.version          = '0.03'
   s.summary          = '自定义一些常用的属性.'
 
   s.homepage         = 'https://github.com/popor/PoporJsonModel'
