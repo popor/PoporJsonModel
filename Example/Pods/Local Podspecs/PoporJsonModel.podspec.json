@@ -1,0 +1,29 @@
+{
+  "name": "PoporJsonModel",
+  "version": "0.01",
+  "summary": "自定义一些常用的属性.",
+  "homepage": "https://github.com/wangkq/PoporJsonModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangkq": "908891024@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangkq/PoporJsonModel.git",
+    "tag": "0.01"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PoporJsonModel/Classes/**/*",
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "PoporFoundation/NSObject": [
+
+    ]
+  }
+}

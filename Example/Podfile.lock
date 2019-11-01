@@ -1,0 +1,27 @@
+PODS:
+  - JSONModel (1.8.0)
+  - PoporFoundation/NSObject (1.09)
+  - PoporJsonModel (0.01):
+    - JSONModel
+    - PoporFoundation/NSObject
+
+DEPENDENCIES:
+  - PoporJsonModel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JSONModel
+    - PoporFoundation
+
+EXTERNAL SOURCES:
+  PoporJsonModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  PoporFoundation: f080da19da868487426639289bd3a263a7c65aea
+  PoporJsonModel: f8d082840dd3dc478d0406b77da9aa3bf840f4d9
+
+PODFILE CHECKSUM: ddedf7b513bbc388ee82d1e7d58a1e31814fa781
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_PoporJsonModel_Tests {
+  umbrella header "Pods-PoporJsonModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

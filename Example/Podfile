@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PoporJsonModel_Example' do
+  pod 'PoporJsonModel', :path => '../'
+
+  target 'PoporJsonModel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
