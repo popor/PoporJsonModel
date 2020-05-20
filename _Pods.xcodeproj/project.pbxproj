@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABA4EB98707C0776C10B2097599CB72 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0999FCACC32D94002530882DE4994292 /* Pods-PoporJsonModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E46AB9C6D076C278AA1E3767E7B4AA /* Pods-PoporJsonModel_Example-dummy.m */; };
+		0D2059E79E6D5ED1789D9E022E94BD76 /* PoporJsonModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D3846A4A7B449301E26F9FFE2BE647D3 /* PoporJsonModelTool.m */; };
+		1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 22774D5C63F55DE3A95C7A5F871DB4F3 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1270EFE5AF7C14F0FABB6D0D4F61A2CB /* JSONModel+pSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E01098C36493F05A737C0E328B1BAD /* JSONModel+pSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128C6C58F90F27E8A6F154344033240C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */; };
+		191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9E783615AC46A524E87B489BDB0B16 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA529D356322AD05A701FF7316E9056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */; };
+		1F5F53F6A5C8A010808ADF941C73BE55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0CA03DBE78BA57B84111410F40083F /* UIKit.framework */; };
+		26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C915E22992370DD9971210364875C4 /* JSONKeyMapper.m */; };
+		2A92CFDCA5A9F6FE0D57080A7781694F /* PoporFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2BA02AE63F2CBE0584F1256B327F28 /* PoporFoundation.framework */; };
+		2D081199D4AEA60019131A3E188E76D7 /* PoporJsonModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F672CE3106A0572FC43ECD2AC07EFA /* PoporJsonModel-dummy.m */; };
+		3094AD7C9EDB22EFC947113FADA4E04E /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABE5E8A895ECEA0C8E3426B39E347C8 /* JSONModel.framework */; };
+		30DF77E53D2E837133265614EC8BEDA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */; };
+		3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C44A751E9D31FF22909565C0456F65 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8689056E7192B38C08172C23023359 /* NSObject+pAssign.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F06D1C96730F4FA6F60E0DDBFC2DB89 /* NSObject+pAssign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB8FB91C6FA113EF3C3BE7880AE1359 /* NSObject+pAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554A764C25A1BAE5BE25660458B08F9 /* NSObject+pAssign.m */; };
+		63F8EA512B24482BD12A07648D6FF17A /* PoporJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6046342477AEF99AC1D5461C33EB2C /* PoporJsonModel.m */; };
+		658F6DEF69C72E1C7D35CC29F6ACBC5D /* Pods-PoporJsonModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8054E7BC0E2F34F4A74AFDB14311FF25 /* Pods-PoporJsonModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B71E3D3A093C54745641D7CC33208F7 /* JSONModel.m */; };
+		75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 394E54E2DE72F8014CD2A1E776F2B5F8 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81874E9E34811182C2B2F16D20382FB9 /* PoporJsonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E0991932A92A7C9218C8CA383A4FB1 /* PoporJsonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE44C9DCBB23C6A3E3041F1B4EDE533 /* PoporJsonModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCB5FFF82A695B51DCC207E1611381C /* PoporJsonModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E08626E7200DBA5C03D700CDDB10865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */; };
+		9D71D84D8E873317A7D230275A754109 /* NSObject+pPerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 305E54D26613350A9E6809C46E3EA9EC /* NSObject+pPerformSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F463B4F1F4B47538E0F55037AE8DB39 /* NSObject+pSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 706054AFDDEA4817ADE8D0DA12CD5984 /* NSObject+pSwizzling.m */; };
+		A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A554BC96332421F7235B7941ACB4FE /* JSONModelError.m */; };
+		AECCDE59776B79A409F78FE63C4A8D4E /* JSONModel+pSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD92BDDDA5446AE7AACA59E3F97E2CF /* JSONModel+pSafe.m */; };
+		B0096A8866F990F4AB8F708153BAD50A /* PoporFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3E42EE0EF1F3E69C258BA6C995B913 /* PoporFoundation-dummy.m */; };
+		B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDC36DCC0917290BABBA40277A2620 /* JSONValueTransformer.m */; };
+		B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 61359AA30672DDF84ACD82FF9C05055E /* JSONHTTPClient.m */; };
+		B4ECD120D0ECC38223037D72C2AE2C0E /* Pods-PoporJsonModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A78199369D2349B05C691F3661279E4B /* Pods-PoporJsonModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1BDEC8D7ACD4DB9CED436172DCB622B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */; };
+		C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D735B1E1DAAD6ECBC3D0852FE419318D /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51DE353D199616E2D497A59AAF85656 /* PoporFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E8DA47AF3DEC7512EB849030752742 /* PoporFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 666547A8336965BD5214E484B71C5D59 /* JSONModelClassProperty.m */; };
+		C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5599ACF20629B6AA8971C087EF0DD /* JSONAPI.m */; };
+		C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D572766B08415FEB1CC4ABDBD52DB7 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E313BE79AD0580001959170A7EC597 /* Pods-PoporJsonModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E903FC3E42A7A6D17955F77B60322 /* Pods-PoporJsonModel_Tests-dummy.m */; };
+		CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B655A15DF8B56ED9CC340C300059131 /* JSONModel+networking.m */; };
+		D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F23FF1FCD8B5C34D0BB748C3E848B4 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC98D8DD2BE2521E309FCAD7EEEB2D90 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4863F969A63F1546F88628157F702A /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F314AEAE095809EF58E4B26C572A71FA /* PoporJsonModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AA4400DD72DA4B1DAEDDC98006D67F /* PoporJsonModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E2E9C3A0162DFCFA28FF6D6A340936 /* JSONModel-dummy.m */; };
+		F7FBF0642C0D57B3124FC7C829BB796F /* NSObject+pPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D032A2CBD8F60EC48B94E013519DCA98 /* NSObject+pPerformSelector.m */; };
+		FBA543882E4CE6780186D3A785C23021 /* NSObject+pSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E893643A790C301D1A18B994B8966EEA /* NSObject+pSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12666F718C5B6EF3981319C02422898C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5018960F4CBF00BD61718D275D71A75B;
+			remoteInfo = "Pods-PoporJsonModel_Example";
+		};
+		37715DEE227490B05337200AAE35711B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		6ADEC544C023152C1CD3320CA43F0C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97370628A8BC4636041BB29E59F4D696;
+			remoteInfo = PoporFoundation;
+		};
+		A9C1241D36333C0BAC2C7B740FBF12C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		B6F80F21BD286D35BCF6D823BAF2AE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97370628A8BC4636041BB29E59F4D696;
+			remoteInfo = PoporFoundation;
+		};
+		F76C8E7FEF5D154D67710320F0730D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F3E5FFD16B8EF8D183306FFE7A491D;
+			remoteInfo = PoporJsonModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A7A7CBE386D4732B8A0CEE3B65F0A0 /* Pods-PoporJsonModel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporJsonModel_Example-Info.plist"; sourceTree = "<group>"; };
+		02F4731AA495EE4561901EC52692A277 /* PoporJsonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporJsonModel.framework; path = PoporJsonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AB018180CD06DB05B22D0F6571A9B5 /* Pods-PoporJsonModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporJsonModel_Example.modulemap"; sourceTree = "<group>"; };
+		072BB2B64ED0B5BCBACFA1501D654F1B /* Pods-PoporJsonModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporJsonModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		081620C4190B758337AC953BECAEE1EA /* PoporFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFoundation-prefix.pch"; sourceTree = "<group>"; };
+		0DD92BDDDA5446AE7AACA59E3F97E2CF /* JSONModel+pSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+pSafe.m"; path = "PoporJsonModel/Classes/JSONModel+pSafe.m"; sourceTree = "<group>"; };
+		135E686A5014CFFA761D8C6210B66F9F /* Pods-PoporJsonModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporJsonModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		14D572766B08415FEB1CC4ABDBD52DB7 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		1EBCB0F17620A503C95FFAAE274D18DA /* Pods-PoporJsonModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporJsonModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1F2BA02AE63F2CBE0584F1256B327F28 /* PoporFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoporFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203300FE02BBE2AD25BB3FBD18DEC69F /* Pods-PoporJsonModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporJsonModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20AEEC1A94E0D29D84A36125566F32A0 /* PoporJsonModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporJsonModel.xcconfig; sourceTree = "<group>"; };
+		22774D5C63F55DE3A95C7A5F871DB4F3 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		27BFE177E839173512A43E087B4E4EAC /* PoporJsonModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporJsonModel.modulemap; sourceTree = "<group>"; };
+		28E0991932A92A7C9218C8CA383A4FB1 /* PoporJsonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporJsonModel.h; path = PoporJsonModel/Classes/PoporJsonModel.h; sourceTree = "<group>"; };
+		28F672CE3106A0572FC43ECD2AC07EFA /* PoporJsonModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporJsonModel-dummy.m"; sourceTree = "<group>"; };
+		2B655A15DF8B56ED9CC340C300059131 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		305E54D26613350A9E6809C46E3EA9EC /* NSObject+pPerformSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+pPerformSelector.h"; path = "PoporFoundation/Classes/NSObject/NSObject+pPerformSelector.h"; sourceTree = "<group>"; };
+		30E8DA47AF3DEC7512EB849030752742 /* PoporFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFoundation-umbrella.h"; sourceTree = "<group>"; };
+		31F4188C8CC008FC9923936F254FF11B /* PoporJsonModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporJsonModel-prefix.pch"; sourceTree = "<group>"; };
+		36D39563A58721CD55F3764E1A90AF68 /* PoporJsonModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporJsonModel-Info.plist"; sourceTree = "<group>"; };
+		3781AEB04C440F5EEEBE19D57AB1EA70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		38E46AB9C6D076C278AA1E3767E7B4AA /* Pods-PoporJsonModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporJsonModel_Example-dummy.m"; sourceTree = "<group>"; };
+		394E54E2DE72F8014CD2A1E776F2B5F8 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		3D6046342477AEF99AC1D5461C33EB2C /* PoporJsonModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PoporJsonModel.m; path = PoporJsonModel/Classes/PoporJsonModel.m; sourceTree = "<group>"; };
+		502B986075BDB2AE28FBEEBAAB5AB688 /* JSONModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONModel-Info.plist"; sourceTree = "<group>"; };
+		50A554BC96332421F7235B7941ACB4FE /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		52E01098C36493F05A737C0E328B1BAD /* JSONModel+pSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+pSafe.h"; path = "PoporJsonModel/Classes/JSONModel+pSafe.h"; sourceTree = "<group>"; };
+		5F06D1C96730F4FA6F60E0DDBFC2DB89 /* NSObject+pAssign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+pAssign.h"; path = "PoporFoundation/Classes/NSObject/NSObject+pAssign.h"; sourceTree = "<group>"; };
+		61359AA30672DDF84ACD82FF9C05055E /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		642C1E28CF41C5000156443C650BB821 /* PoporFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporFoundation.modulemap; sourceTree = "<group>"; };
+		6554A764C25A1BAE5BE25660458B08F9 /* NSObject+pAssign.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+pAssign.m"; path = "PoporFoundation/Classes/NSObject/NSObject+pAssign.m"; sourceTree = "<group>"; };
+		666547A8336965BD5214E484B71C5D59 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		69AA4400DD72DA4B1DAEDDC98006D67F /* PoporJsonModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporJsonModel-umbrella.h"; sourceTree = "<group>"; };
+		6B9DF254DCE5FDDC9566E3B319A78421 /* Pods-PoporJsonModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporJsonModel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6E0CA03DBE78BA57B84111410F40083F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		706054AFDDEA4817ADE8D0DA12CD5984 /* NSObject+pSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+pSwizzling.m"; path = "PoporFoundation/Classes/NSObject/NSObject+pSwizzling.m"; sourceTree = "<group>"; };
+		77F23FF1FCD8B5C34D0BB748C3E848B4 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		7ABA4EB98707C0776C10B2097599CB72 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		7B4C885A64ABA060A1301C272FB29521 /* Pods_PoporJsonModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporJsonModel_Tests.framework; path = "Pods-PoporJsonModel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B71E3D3A093C54745641D7CC33208F7 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		7DCB5FFF82A695B51DCC207E1611381C /* PoporJsonModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporJsonModelTool.h; path = PoporJsonModel/Classes/PoporJsonModelTool.h; sourceTree = "<group>"; };
+		7E8F0DD844759DE03A93906B7A443EE2 /* PoporFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporFoundation.xcconfig; sourceTree = "<group>"; };
+		7E9E783615AC46A524E87B489BDB0B16 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		8054E7BC0E2F34F4A74AFDB14311FF25 /* Pods-PoporJsonModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporJsonModel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		83E2E9C3A0162DFCFA28FF6D6A340936 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		86C44A751E9D31FF22909565C0456F65 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		8A4863F969A63F1546F88628157F702A /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		8B7B1ADF34094040C90D9FDCDC2D9D21 /* Pods-PoporJsonModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporJsonModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E0FC36C776A23C794EB8565A9F6A9C0 /* Pods-PoporJsonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporJsonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		925EFB920961F7B398B63C7B90C77087 /* Pods_PoporJsonModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporJsonModel_Example.framework; path = "Pods-PoporJsonModel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96099B18E6FBBC81C4290B855CB26AB7 /* Pods-PoporJsonModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporJsonModel_Tests.modulemap"; sourceTree = "<group>"; };
+		99831643CA37FE3136883C031FC2E440 /* Pods-PoporJsonModel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporJsonModel_Tests-Info.plist"; sourceTree = "<group>"; };
+		9C92C9CFFDD042B2F8E71CAC55C8A230 /* PoporJsonModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PoporJsonModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A131CA3F726D3658784B1404C7B5B310 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		A71EE737D7D84795C0AA17FBA05989AB /* Pods-PoporJsonModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporJsonModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A78199369D2349B05C691F3661279E4B /* Pods-PoporJsonModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporJsonModel_Example-umbrella.h"; sourceTree = "<group>"; };
+		AC4E903FC3E42A7A6D17955F77B60322 /* Pods-PoporJsonModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporJsonModel_Tests-dummy.m"; sourceTree = "<group>"; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6714F4E7AE61A20DA23CD5C4C0B40D7 /* PoporFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporFoundation-Info.plist"; sourceTree = "<group>"; };
+		CB3E42EE0EF1F3E69C258BA6C995B913 /* PoporFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporFoundation-dummy.m"; sourceTree = "<group>"; };
+		CEF5599ACF20629B6AA8971C087EF0DD /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		D032A2CBD8F60EC48B94E013519DCA98 /* NSObject+pPerformSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+pPerformSelector.m"; path = "PoporFoundation/Classes/NSObject/NSObject+pPerformSelector.m"; sourceTree = "<group>"; };
+		D339A58BA2F7EE03A3A33DC5B22D725B /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		D3846A4A7B449301E26F9FFE2BE647D3 /* PoporJsonModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PoporJsonModelTool.m; path = PoporJsonModel/Classes/PoporJsonModelTool.m; sourceTree = "<group>"; };
+		D735B1E1DAAD6ECBC3D0852FE419318D /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		DABE5E8A895ECEA0C8E3426B39E347C8 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC3CA27C70199A0DD6E8BCB6D8E30EED /* PoporFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporFoundation.framework; path = PoporFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC98D8DD2BE2521E309FCAD7EEEB2D90 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		E893643A790C301D1A18B994B8966EEA /* NSObject+pSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+pSwizzling.h"; path = "PoporFoundation/Classes/NSObject/NSObject+pSwizzling.h"; sourceTree = "<group>"; };
+		ED5EA4CE4904E65EB15CC340D112F377 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		F4C915E22992370DD9971210364875C4 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		F4EDC36DCC0917290BABBA40277A2620 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		FA8FF610E2143A54C99D1619556A3D47 /* Pods-PoporJsonModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporJsonModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5EC2706EEBCFA051B275A7A3CCA83D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021E63BEA0920EB428AF47648EB0C2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA529D356322AD05A701FF7316E9056 /* Foundation.framework in Frameworks */,
+				1F5F53F6A5C8A010808ADF941C73BE55 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8061E4DACFB8657F2A697437474F1F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E08626E7200DBA5C03D700CDDB10865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886E050E05F79FD43F2409BED7E67F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF77E53D2E837133265614EC8BEDA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF36BB6E8A6FDEBEDD252F6487E334F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128C6C58F90F27E8A6F154344033240C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4A217839EAE03211084F5037B0DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BDEC8D7ACD4DB9CED436172DCB622B /* Foundation.framework in Frameworks */,
+				3094AD7C9EDB22EFC947113FADA4E04E /* JSONModel.framework in Frameworks */,
+				2A92CFDCA5A9F6FE0D57080A7781694F /* PoporFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F8FFFA03C21824DA1971067E465D20 /* PoporFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				6174E5A5814020C23D2F204DDD763C9E /* NSObject */,
+				7148F55134BD32A2C18DD22500F04747 /* Support Files */,
+			);
+			name = PoporFoundation;
+			path = PoporFoundation;
+			sourceTree = "<group>";
+		};
+		0B9664083709EDB4975E1CF7C7F13F0D /* PoporJsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				52E01098C36493F05A737C0E328B1BAD /* JSONModel+pSafe.h */,
+				0DD92BDDDA5446AE7AACA59E3F97E2CF /* JSONModel+pSafe.m */,
+				28E0991932A92A7C9218C8CA383A4FB1 /* PoporJsonModel.h */,
+				3D6046342477AEF99AC1D5461C33EB2C /* PoporJsonModel.m */,
+				7DCB5FFF82A695B51DCC207E1611381C /* PoporJsonModelTool.h */,
+				D3846A4A7B449301E26F9FFE2BE647D3 /* PoporJsonModelTool.m */,
+				1D6EC11D7ADBD53F7964F793C5C3DF1F /* Pod */,
+				2060832B08E287EA552E74F9E63F696B /* Support Files */,
+			);
+			name = PoporJsonModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D6EC11D7ADBD53F7964F793C5C3DF1F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3781AEB04C440F5EEEBE19D57AB1EA70 /* LICENSE */,
+				9C92C9CFFDD042B2F8E71CAC55C8A230 /* PoporJsonModel.podspec */,
+				FD5EC2706EEBCFA051B275A7A3CCA83D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2060832B08E287EA552E74F9E63F696B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BFE177E839173512A43E087B4E4EAC /* PoporJsonModel.modulemap */,
+				20AEEC1A94E0D29D84A36125566F32A0 /* PoporJsonModel.xcconfig */,
+				28F672CE3106A0572FC43ECD2AC07EFA /* PoporJsonModel-dummy.m */,
+				36D39563A58721CD55F3764E1A90AF68 /* PoporJsonModel-Info.plist */,
+				31F4188C8CC008FC9923936F254FF11B /* PoporJsonModel-prefix.pch */,
+				69AA4400DD72DA4B1DAEDDC98006D67F /* PoporJsonModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporJsonModel";
+			sourceTree = "<group>";
+		};
+		22DB74BFBF850646D2E1EDE9E83651AC /* Pods-PoporJsonModel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96099B18E6FBBC81C4290B855CB26AB7 /* Pods-PoporJsonModel_Tests.modulemap */,
+				203300FE02BBE2AD25BB3FBD18DEC69F /* Pods-PoporJsonModel_Tests-acknowledgements.markdown */,
+				8B7B1ADF34094040C90D9FDCDC2D9D21 /* Pods-PoporJsonModel_Tests-acknowledgements.plist */,
+				AC4E903FC3E42A7A6D17955F77B60322 /* Pods-PoporJsonModel_Tests-dummy.m */,
+				99831643CA37FE3136883C031FC2E440 /* Pods-PoporJsonModel_Tests-Info.plist */,
+				8054E7BC0E2F34F4A74AFDB14311FF25 /* Pods-PoporJsonModel_Tests-umbrella.h */,
+				FA8FF610E2143A54C99D1619556A3D47 /* Pods-PoporJsonModel_Tests.debug.xcconfig */,
+				1EBCB0F17620A503C95FFAAE274D18DA /* Pods-PoporJsonModel_Tests.release.xcconfig */,
+			);
+			name = "Pods-PoporJsonModel_Tests";
+			path = "Target Support Files/Pods-PoporJsonModel_Tests";
+			sourceTree = "<group>";
+		};
+		2C10F4254B93A56CB4B6A6000F3B2DB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D339A58BA2F7EE03A3A33DC5B22D725B /* JSONModel.modulemap */,
+				ED5EA4CE4904E65EB15CC340D112F377 /* JSONModel.xcconfig */,
+				83E2E9C3A0162DFCFA28FF6D6A340936 /* JSONModel-dummy.m */,
+				502B986075BDB2AE28FBEEBAAB5AB688 /* JSONModel-Info.plist */,
+				A131CA3F726D3658784B1404C7B5B310 /* JSONModel-prefix.pch */,
+				DC98D8DD2BE2521E309FCAD7EEEB2D90 /* JSONModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		3651223C1992A234A736BAABB27FBE62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
+				925EFB920961F7B398B63C7B90C77087 /* Pods_PoporJsonModel_Example.framework */,
+				7B4C885A64ABA060A1301C272FB29521 /* Pods_PoporJsonModel_Tests.framework */,
+				DC3CA27C70199A0DD6E8BCB6D8E30EED /* PoporFoundation.framework */,
+				02F4731AA495EE4561901EC52692A277 /* PoporJsonModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5679CF41693C1F67A2BC417A83A1BC80 /* Pods-PoporJsonModel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06AB018180CD06DB05B22D0F6571A9B5 /* Pods-PoporJsonModel_Example.modulemap */,
+				A71EE737D7D84795C0AA17FBA05989AB /* Pods-PoporJsonModel_Example-acknowledgements.markdown */,
+				135E686A5014CFFA761D8C6210B66F9F /* Pods-PoporJsonModel_Example-acknowledgements.plist */,
+				38E46AB9C6D076C278AA1E3767E7B4AA /* Pods-PoporJsonModel_Example-dummy.m */,
+				6B9DF254DCE5FDDC9566E3B319A78421 /* Pods-PoporJsonModel_Example-frameworks.sh */,
+				02A7A7CBE386D4732B8A0CEE3B65F0A0 /* Pods-PoporJsonModel_Example-Info.plist */,
+				A78199369D2349B05C691F3661279E4B /* Pods-PoporJsonModel_Example-umbrella.h */,
+				072BB2B64ED0B5BCBACFA1501D654F1B /* Pods-PoporJsonModel_Example.debug.xcconfig */,
+				8E0FC36C776A23C794EB8565A9F6A9C0 /* Pods-PoporJsonModel_Example.release.xcconfig */,
+			);
+			name = "Pods-PoporJsonModel_Example";
+			path = "Target Support Files/Pods-PoporJsonModel_Example";
+			sourceTree = "<group>";
+		};
+		6174E5A5814020C23D2F204DDD763C9E /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				5F06D1C96730F4FA6F60E0DDBFC2DB89 /* NSObject+pAssign.h */,
+				6554A764C25A1BAE5BE25660458B08F9 /* NSObject+pAssign.m */,
+				305E54D26613350A9E6809C46E3EA9EC /* NSObject+pPerformSelector.h */,
+				D032A2CBD8F60EC48B94E013519DCA98 /* NSObject+pPerformSelector.m */,
+				E893643A790C301D1A18B994B8966EEA /* NSObject+pSwizzling.h */,
+				706054AFDDEA4817ADE8D0DA12CD5984 /* NSObject+pSwizzling.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		7148F55134BD32A2C18DD22500F04747 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				642C1E28CF41C5000156443C650BB821 /* PoporFoundation.modulemap */,
+				7E8F0DD844759DE03A93906B7A443EE2 /* PoporFoundation.xcconfig */,
+				CB3E42EE0EF1F3E69C258BA6C995B913 /* PoporFoundation-dummy.m */,
+				C6714F4E7AE61A20DA23CD5C4C0B40D7 /* PoporFoundation-Info.plist */,
+				081620C4190B758337AC953BECAEE1EA /* PoporFoundation-prefix.pch */,
+				30E8DA47AF3DEC7512EB849030752742 /* PoporFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PoporFoundation";
+			sourceTree = "<group>";
+		};
+		7C82A83B76525622D9DA643B3CE57D44 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBE402322CDCD825F17023E5B19585D4 /* Foundation.framework */,
+				6E0CA03DBE78BA57B84111410F40083F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		862AC8490321F9C80AB702766B5EAD71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B9664083709EDB4975E1CF7C7F13F0D /* PoporJsonModel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE1FE1D932CA699ACF5F2688C6504605 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5679CF41693C1F67A2BC417A83A1BC80 /* Pods-PoporJsonModel_Example */,
+				22DB74BFBF850646D2E1EDE9E83651AC /* Pods-PoporJsonModel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				862AC8490321F9C80AB702766B5EAD71 /* Development Pods */,
+				F2EBD38A156B6E071D07C8B5CA0E991F /* Frameworks */,
+				D68A66082B46F4ED20E96D2B15729FC4 /* Pods */,
+				3651223C1992A234A736BAABB27FBE62 /* Products */,
+				CE1FE1D932CA699ACF5F2688C6504605 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B93FEE621AA8E78EB0576462095594 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				86C44A751E9D31FF22909565C0456F65 /* JSONAPI.h */,
+				CEF5599ACF20629B6AA8971C087EF0DD /* JSONAPI.m */,
+				22774D5C63F55DE3A95C7A5F871DB4F3 /* JSONHTTPClient.h */,
+				61359AA30672DDF84ACD82FF9C05055E /* JSONHTTPClient.m */,
+				14D572766B08415FEB1CC4ABDBD52DB7 /* JSONKeyMapper.h */,
+				F4C915E22992370DD9971210364875C4 /* JSONKeyMapper.m */,
+				394E54E2DE72F8014CD2A1E776F2B5F8 /* JSONModel.h */,
+				7B71E3D3A093C54745641D7CC33208F7 /* JSONModel.m */,
+				7E9E783615AC46A524E87B489BDB0B16 /* JSONModel+networking.h */,
+				2B655A15DF8B56ED9CC340C300059131 /* JSONModel+networking.m */,
+				77F23FF1FCD8B5C34D0BB748C3E848B4 /* JSONModelClassProperty.h */,
+				666547A8336965BD5214E484B71C5D59 /* JSONModelClassProperty.m */,
+				7ABA4EB98707C0776C10B2097599CB72 /* JSONModelError.h */,
+				50A554BC96332421F7235B7941ACB4FE /* JSONModelError.m */,
+				D735B1E1DAAD6ECBC3D0852FE419318D /* JSONModelLib.h */,
+				8A4863F969A63F1546F88628157F702A /* JSONValueTransformer.h */,
+				F4EDC36DCC0917290BABBA40277A2620 /* JSONValueTransformer.m */,
+				2C10F4254B93A56CB4B6A6000F3B2DB2 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		D68A66082B46F4ED20E96D2B15729FC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5B93FEE621AA8E78EB0576462095594 /* JSONModel */,
+				07F8FFFA03C21824DA1971067E465D20 /* PoporFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2EBD38A156B6E071D07C8B5CA0E991F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABE5E8A895ECEA0C8E3426B39E347C8 /* JSONModel.framework */,
+				1F2BA02AE63F2CBE0584F1256B327F28 /* PoporFoundation.framework */,
+				7C82A83B76525622D9DA643B3CE57D44 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FD903F20F42A983AA4C95E92EEB9FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1270EFE5AF7C14F0FABB6D0D4F61A2CB /* JSONModel+pSafe.h in Headers */,
+				F314AEAE095809EF58E4B26C572A71FA /* PoporJsonModel-umbrella.h in Headers */,
+				81874E9E34811182C2B2F16D20382FB9 /* PoporJsonModel.h in Headers */,
+				8DE44C9DCBB23C6A3E3041F1B4EDE533 /* PoporJsonModelTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04CDBC00FF106175A0D52CF3E0680C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8689056E7192B38C08172C23023359 /* NSObject+pAssign.h in Headers */,
+				9D71D84D8E873317A7D230275A754109 /* NSObject+pPerformSelector.h in Headers */,
+				FBA543882E4CE6780186D3A785C23021 /* NSObject+pSwizzling.h in Headers */,
+				C51DE353D199616E2D497A59AAF85656 /* PoporFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10AE64316B9C31B3BB6170AF9933749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */,
+				1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */,
+				C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */,
+				191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */,
+				DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */,
+				75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */,
+				D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */,
+				02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */,
+				C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */,
+				E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08A1643E5422708A4A1FB43522E2817 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658F6DEF69C72E1C7D35CC29F6ACBC5D /* Pods-PoporJsonModel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BC891EFBB77ED2C5E3F2C37B5D21E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ECD120D0ECC38223037D72C2AE2C0E /* Pods-PoporJsonModel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01F3E5FFD16B8EF8D183306FFE7A491D /* PoporJsonModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F418A4CD20068617C58D19B999F6985 /* Build configuration list for PBXNativeTarget "PoporJsonModel" */;
+			buildPhases = (
+				3FD903F20F42A983AA4C95E92EEB9FC0 /* Headers */,
+				E20CB9A36284A93D59604972F5BE28DF /* Sources */,
+				FB4A217839EAE03211084F5037B0DC64 /* Frameworks */,
+				9979DD73BCD3836199D93DDA2F65CFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D9AFCA9E737E4BAE9B7B947C5A34CC /* PBXTargetDependency */,
+				04117EB15DE53E9023DF015A0C5F30CA /* PBXTargetDependency */,
+			);
+			name = PoporJsonModel;
+			productName = PoporJsonModel;
+			productReference = 02F4731AA495EE4561901EC52692A277 /* PoporJsonModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		024BE8C8C8419E8578A08E102B706767 /* Pods-PoporJsonModel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CC100FEF5A24AC8495E4A40D0970F4 /* Build configuration list for PBXNativeTarget "Pods-PoporJsonModel_Tests" */;
+			buildPhases = (
+				D08A1643E5422708A4A1FB43522E2817 /* Headers */,
+				7ECD3E90AD3EE9B9C661FCA89815D562 /* Sources */,
+				9AF36BB6E8A6FDEBEDD252F6487E334F /* Frameworks */,
+				615942643CD953E8E552D4B2FAD0CAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED32C6B403EA37AB0ACBD8756A6EC6AE /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporJsonModel_Tests";
+			productName = "Pods-PoporJsonModel_Tests";
+			productReference = 7B4C885A64ABA060A1301C272FB29521 /* Pods_PoporJsonModel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5018960F4CBF00BD61718D275D71A75B /* Pods-PoporJsonModel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9449D4B173A659FEF46E2BBC61193192 /* Build configuration list for PBXNativeTarget "Pods-PoporJsonModel_Example" */;
+			buildPhases = (
+				E0BC891EFBB77ED2C5E3F2C37B5D21E5 /* Headers */,
+				DA514C3A2D5C8B3D8945F4879F6281A1 /* Sources */,
+				8061E4DACFB8657F2A697437474F1F32 /* Frameworks */,
+				B973B98D67F0D69D09E2A5AA5A37CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16339F7A8EE8409E4C15D6A09810195 /* PBXTargetDependency */,
+				138197A7381EAA489DF4F0E41FA8BE57 /* PBXTargetDependency */,
+				30FAB730E6E01AB4C81E60638493EF22 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporJsonModel_Example";
+			productName = "Pods-PoporJsonModel_Example";
+			productReference = 925EFB920961F7B398B63C7B90C77087 /* Pods_PoporJsonModel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97370628A8BC4636041BB29E59F4D696 /* PoporFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC09BC28F9D563F2F6348C32872BCDC /* Build configuration list for PBXNativeTarget "PoporFoundation" */;
+			buildPhases = (
+				C04CDBC00FF106175A0D52CF3E0680C1 /* Headers */,
+				B2725AB141EC474B9946A2620687BF51 /* Sources */,
+				021E63BEA0920EB428AF47648EB0C2F2 /* Frameworks */,
+				CC98ACC4FFD83AD9A45F1882A07F70D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoporFoundation;
+			productName = PoporFoundation;
+			productReference = DC3CA27C70199A0DD6E8BCB6D8E30EED /* PoporFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				C10AE64316B9C31B3BB6170AF9933749 /* Headers */,
+				9110B95813C4D6328D3D0802138CFDE0 /* Sources */,
+				886E050E05F79FD43F2409BED7E67F73 /* Frameworks */,
+				33431436401EBC85BE0A907D9728DA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3651223C1992A234A736BAABB27FBE62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */,
+				5018960F4CBF00BD61718D275D71A75B /* Pods-PoporJsonModel_Example */,
+				024BE8C8C8419E8578A08E102B706767 /* Pods-PoporJsonModel_Tests */,
+				97370628A8BC4636041BB29E59F4D696 /* PoporFoundation */,
+				01F3E5FFD16B8EF8D183306FFE7A491D /* PoporJsonModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33431436401EBC85BE0A907D9728DA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615942643CD953E8E552D4B2FAD0CAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9979DD73BCD3836199D93DDA2F65CFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B973B98D67F0D69D09E2A5AA5A37CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC98ACC4FFD83AD9A45F1882A07F70D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ECD3E90AD3EE9B9C661FCA89815D562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E313BE79AD0580001959170A7EC597 /* Pods-PoporJsonModel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110B95813C4D6328D3D0802138CFDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */,
+				B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */,
+				26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */,
+				CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */,
+				F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */,
+				6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */,
+				C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */,
+				A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */,
+				B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2725AB141EC474B9946A2620687BF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB8FB91C6FA113EF3C3BE7880AE1359 /* NSObject+pAssign.m in Sources */,
+				F7FBF0642C0D57B3124FC7C829BB796F /* NSObject+pPerformSelector.m in Sources */,
+				9F463B4F1F4B47538E0F55037AE8DB39 /* NSObject+pSwizzling.m in Sources */,
+				B0096A8866F990F4AB8F708153BAD50A /* PoporFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA514C3A2D5C8B3D8945F4879F6281A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0999FCACC32D94002530882DE4994292 /* Pods-PoporJsonModel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CB9A36284A93D59604972F5BE28DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCDE59776B79A409F78FE63C4A8D4E /* JSONModel+pSafe.m in Sources */,
+				2D081199D4AEA60019131A3E188E76D7 /* PoporJsonModel-dummy.m in Sources */,
+				63F8EA512B24482BD12A07648D6FF17A /* PoporJsonModel.m in Sources */,
+				0D2059E79E6D5ED1789D9E022E94BD76 /* PoporJsonModelTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04117EB15DE53E9023DF015A0C5F30CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporFoundation;
+			target = 97370628A8BC4636041BB29E59F4D696 /* PoporFoundation */;
+			targetProxy = 6ADEC544C023152C1CD3320CA43F0C7B /* PBXContainerItemProxy */;
+		};
+		138197A7381EAA489DF4F0E41FA8BE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporFoundation;
+			target = 97370628A8BC4636041BB29E59F4D696 /* PoporFoundation */;
+			targetProxy = B6F80F21BD286D35BCF6D823BAF2AE37 /* PBXContainerItemProxy */;
+		};
+		30FAB730E6E01AB4C81E60638493EF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporJsonModel;
+			target = 01F3E5FFD16B8EF8D183306FFE7A491D /* PoporJsonModel */;
+			targetProxy = F76C8E7FEF5D154D67710320F0730D50 /* PBXContainerItemProxy */;
+		};
+		C16339F7A8EE8409E4C15D6A09810195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = A9C1241D36333C0BAC2C7B740FBF12C9 /* PBXContainerItemProxy */;
+		};
+		D2D9AFCA9E737E4BAE9B7B947C5A34CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 37715DEE227490B05337200AAE35711B /* PBXContainerItemProxy */;
+		};
+		ED32C6B403EA37AB0ACBD8756A6EC6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PoporJsonModel_Example";
+			target = 5018960F4CBF00BD61718D275D71A75B /* Pods-PoporJsonModel_Example */;
+			targetProxy = 12666F718C5B6EF3981319C02422898C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7B91A99F6909491B9D911117C10AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBCB0F17620A503C95FFAAE274D18DA /* Pods-PoporJsonModel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporJsonModel_Tests/Pods-PoporJsonModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporJsonModel_Tests/Pods-PoporJsonModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26C7A276A2F2DC6166C31C7C8AD5F918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8F0DD844759DE03A93906B7A443EE2 /* PoporFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFoundation/PoporFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFoundation/PoporFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFoundation/PoporFoundation.modulemap";
+				PRODUCT_MODULE_NAME = PoporFoundation;
+				PRODUCT_NAME = PoporFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28C89E7079ED672091670914B5FD1B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0FC36C776A23C794EB8565A9F6A9C0 /* Pods-PoporJsonModel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporJsonModel_Example/Pods-PoporJsonModel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporJsonModel_Example/Pods-PoporJsonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C53A6B1F827EFB5DC637AA849EF9B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072BB2B64ED0B5BCBACFA1501D654F1B /* Pods-PoporJsonModel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporJsonModel_Example/Pods-PoporJsonModel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporJsonModel_Example/Pods-PoporJsonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65DFD7F6190C79B7E8675118C57598DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8F0DD844759DE03A93906B7A443EE2 /* PoporFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFoundation/PoporFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFoundation/PoporFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFoundation/PoporFoundation.modulemap";
+				PRODUCT_MODULE_NAME = PoporFoundation;
+				PRODUCT_NAME = PoporFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D222431F9F0343C18B6575924EE3414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8FF610E2143A54C99D1619556A3D47 /* Pods-PoporJsonModel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporJsonModel_Tests/Pods-PoporJsonModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporJsonModel_Tests/Pods-PoporJsonModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACFE4678B5EADFD50BB5E0270910B5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AEEC1A94E0D29D84A36125566F32A0 /* PoporJsonModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporJsonModel/PoporJsonModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporJsonModel/PoporJsonModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporJsonModel/PoporJsonModel.modulemap";
+				PRODUCT_MODULE_NAME = PoporJsonModel;
+				PRODUCT_NAME = PoporJsonModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4F8CB4581EC771D13AD064CD46CB6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5EA4CE4904E65EB15CC340D112F377 /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9A3D570A2BC519ACBFE237ADBDA0602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5EA4CE4904E65EB15CC340D112F377 /* JSONModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDEA0F9FFB49A56089CE3E4A312A117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AEEC1A94E0D29D84A36125566F32A0 /* PoporJsonModel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporJsonModel/PoporJsonModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporJsonModel/PoporJsonModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporJsonModel/PoporJsonModel.modulemap";
+				PRODUCT_MODULE_NAME = PoporJsonModel;
+				PRODUCT_NAME = PoporJsonModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F8CB4581EC771D13AD064CD46CB6AB /* Debug */,
+				C9A3D570A2BC519ACBFE237ADBDA0602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9449D4B173A659FEF46E2BBC61193192 /* Build configuration list for PBXNativeTarget "Pods-PoporJsonModel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53A6B1F827EFB5DC637AA849EF9B25 /* Debug */,
+				28C89E7079ED672091670914B5FD1B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F418A4CD20068617C58D19B999F6985 /* Build configuration list for PBXNativeTarget "PoporJsonModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFE4678B5EADFD50BB5E0270910B5EF /* Debug */,
+				DDEA0F9FFB49A56089CE3E4A312A117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CC100FEF5A24AC8495E4A40D0970F4 /* Build configuration list for PBXNativeTarget "Pods-PoporJsonModel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D222431F9F0343C18B6575924EE3414 /* Debug */,
+				0F7B91A99F6909491B9D911117C10AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC09BC28F9D563F2F6348C32872BCDC /* Build configuration list for PBXNativeTarget "PoporFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C7A276A2F2DC6166C31C7C8AD5F918 /* Debug */,
+				65DFD7F6190C79B7E8675118C57598DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
